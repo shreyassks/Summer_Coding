@@ -1,3 +1,26 @@
 Assignment - 01
 
 1. Use command "git branch -a" to get list of local and remote branches
+
+2. Use command "git branch -d <branch name>" to delete a local GIT branch
+   Use command "git push <remote name> --delete <branch name>" to delete a remote GIT branch
+
+3. Use command "git branch <branch name>" to create a new branch and use command "git checkout <branch name>" to simultaneously switch to it
+
+4. Use command "git branch -a" to list local as well as remote branches
+
+5. Steps are written below
+   a. "git checkout master" will switch on to master branch from any working branch
+   b. "git pull <remote name> master" will pull the remote master branch to make it ready to account for changes to be made
+   c. "git merge <branch name>" will merge the branch with master branch
+   d. "git push <remote name> master" will push back after making the changes to remote repository
+
+6. Stashing will do away the dirty state of working directory. The modified tracked files and staged changes are stored in a stack which can be reused at any time. When you dont want to commit changes in current branch and want to switch another branch this command can be used. "git stash" is the command to stash changes
+
+7. "git log --oneline" will give a compact output which will contain only the ID and message for each commit
+
+8. "git diff" will show the changes in a branch with master branch. "git diff <branch 1 name>..<branch 2 name>" will show changes between two branches
+
+9. SSH URLs will provide access to a Git repo via a secure protocol. Cloning to a remote repo using SSH URL will ask you to provide SSH key passphrase. Whereas, HTTPS URL on command line will ask you to enter GITHUB username and password. For organizations using SAML single signon, cloning cant be done by SSH but only HTTPS.
+
+10.   
